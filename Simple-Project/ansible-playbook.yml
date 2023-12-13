@@ -18,7 +18,7 @@
     - name: build docker image using the Dockerfile
       command: docker build -t medyassineelhaj/comingsoon-page .
 
-    - name: docker login 
+    - name: docker login -u medyassineelhaj -p 5W2rF_Ge^jF$k2G
       command: docker login
 
     - name: Push Image to dockerhub
